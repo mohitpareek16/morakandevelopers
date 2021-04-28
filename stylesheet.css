@@ -1,0 +1,196 @@
+.topnav {
+    
+  padding-left: 536px;
+  overflow: hidden;
+  position: static;
+  }
+  
+  .logo img{
+    padding-left:103px ;
+    width: 50px;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #300255 ;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .wrapper{
+    padding-left: 562px;
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 4px;
+  }
+  .wrapper .button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 45px;
+    box-sizing: border-box;
+    line-height: 45px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  
+  
+  
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
+  .background {
+  
+    /* The background image will change 
+    whenever we load the page */
+    background: -webkit-linear-gradient(left, #080238, hsl(224deg 63% 58%) );
+
+    /* This will make the background that
+    have been added will be darken */
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.type{
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 8px 0px;
+}
+._1type{
+font-size: 50px;
+font-family:monospace ;
+text-align: center;
+align-items: center;
+}
+.im{
+  align-items: center;
+}
+.im img{
+width: 40%;
+height: 50%;
+padding: 15px 408px;
+animation-delay: initial;
+}
+.lines{
+font-size: 20px;
+font-family: sans-serif;
+font-style: italic;
+padding: 5px 391px;
+text-align: -webkit-center;
+}
+.mp{
+font-size: 20px;
+font-style: italic;
+padding: 0px 214px;
+text-align: -webkit-center;
+background-color: rgb(243 239 232);
+}
+.cp{
+  padding: 7px 0px;
+  margin: 2px 0px;
+  font-size: 20px;
+}
+.psd{
+display: flex;
+}
+.psd img{
+padding: 5px;
+width: 24%;
+}
+@media only screen and (max-width :1024px){
+  .topnav{
+    padding-left:382px ;
+
+  }
+  .logo img{
+    padding-left: 106px;
+  }
+  .wrapper{
+    padding-left:416px;
+  }
+  .im img{
+    padding: 0px 293px;
+  }
+  .lines{
+    font-size: 14px;
+    padding: 5px 28px;
+  }
+  .mp{
+    padding: 0px 255pxpx;
+  }
+}
